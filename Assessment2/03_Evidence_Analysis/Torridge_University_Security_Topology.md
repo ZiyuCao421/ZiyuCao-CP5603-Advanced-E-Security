@@ -87,3 +87,23 @@ flowchart TB
 - Dotted arrows show monitoring, escalation, governance, or assurance relationships.
 - Dashed boundaries are logical trust zones, not a verified configuration diagram.
 - High-exposure components require specific validation of segmentation, access control, patching, vendor assurance, and compensating controls.
+
+
+## 简化版拓扑图
+
+```mermaid
+flowchart TB
+  PEOPLE[人员] --> NET[互联网]
+  NET --> CAMPUS[大学网络]
+  CAMPUS --> PORTAL[学生门户]
+  CAMPUS --> LOGIN[登录]
+  LOGIN --> MFA[MFA]
+  CAMPUS --> SIS[学生系统]
+  CAMPUS --> LMS[学习平台]
+  LMS --> PLUGIN[插件]
+  CAMPUS --> RESEARCH[研究网络]
+  RESEARCH --> DEVICE[研究设备]
+  CAMPUS --> GENAI[GenAI]
+  CAMPUS --> SECURITY[安全团队]
+  SECURITY --> SUPPLIER[供应商]
+```
