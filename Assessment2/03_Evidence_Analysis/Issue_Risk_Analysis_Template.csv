@@ -1,0 +1,2 @@
+Finding_ID,Evidence_IDs,Observed_Facts,Security_Issue,Classification,Asset_or_Process,Threat,Vulnerability_or_Control_Gap,Risk_Event,Potential_Impact,Significance,Confidence,Alternative_Explanation,Priority,ACS_Ethics_Consideration,Validation_Needed
+F01,[E##],[fact only],[issue],Threat/Vulnerability/Control Failure/Process Issue,[asset],[threat actor/event],[gap],[event],[impact],[why it matters],High/Medium/Low,[other explanation],High/Medium/Low,[ethical decision],[next action]
