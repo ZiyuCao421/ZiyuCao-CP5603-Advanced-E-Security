@@ -1,0 +1,2 @@
+Risk_ID,Risk_Title,Asset_or_Process,Threat_Event,Vulnerability_or_Control_Gap,Evidence_IDs,Likelihood,Impact,Inherent_Rating,Existing_Controls,Control_Effectiveness,Treatment_Option,Recommended_Actions,Owner,Target_Date,Residual_Rating,Assumptions_and_Limitations
+R01,[risk title],[asset/process],[threat event],[control gap],[E##; E##],[Low/Medium/High],[Low/Medium/High],[rating],[controls],[effective/partial/unknown],[avoid/reduce/transfer/accept],[action],[role],YYYY-MM-DD,[rating],[limitations]
