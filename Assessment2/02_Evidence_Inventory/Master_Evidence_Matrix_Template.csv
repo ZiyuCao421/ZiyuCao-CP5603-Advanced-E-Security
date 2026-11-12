@@ -1,0 +1,2 @@
+Evidence_ID,Private_Source_Reference,Source_Type,Date_or_Period,Security_Domain,Observed_Fact,Evidence_Strength,Sensitivity_Handling,Linked_Evidence_IDs,Limitations,Validation_Needed,Status
+E01,[private reference],Log/Policy/Config/Minutes,YYYY-MM-DD,[domain],[fact only],Direct/Contextual/Planned/Unverified,Private—do not upload,[E##],[what it cannot prove],[next action],Open
