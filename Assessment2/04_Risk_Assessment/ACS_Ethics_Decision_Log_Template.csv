@@ -1,0 +1,2 @@
+Decision_ID,Risk_or_Finding_ID,Decision_or_Trade_Off,Stakeholders,ACS_Value_or_Conduct_Consideration,Evidence_IDs,Privacy_or_Public_Interest_Impact,Honesty_and_Communication,Competence_or_Escalation_Needed,Decision_Rationale,Owner,Review_Date
+D01,[R##/F##],[decision],[stakeholders],[Honesty/Trustworthiness/Respect/Professional conduct],[E##],[impact],[communication],[escalation],[rationale],[role],YYYY-MM-DD
