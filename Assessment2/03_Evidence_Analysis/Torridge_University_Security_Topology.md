@@ -107,3 +107,23 @@ flowchart TB
   CAMPUS --> SECURITY[安全团队]
   SECURITY --> SUPPLIER[供应商]
 ```
+
+
+## Simplified Topology (English)
+
+```mermaid
+flowchart TB
+  PEOPLE[People] --> NET[Internet]
+  NET --> CAMPUS[University Network]
+  CAMPUS --> PORTAL[Student Portal]
+  CAMPUS --> LOGIN[Login]
+  LOGIN --> MFA[MFA]
+  CAMPUS --> SIS[Student System]
+  CAMPUS --> LMS[Learning Platform]
+  LMS --> PLUGIN[Plugins]
+  CAMPUS --> RESEARCH[Research Network]
+  RESEARCH --> DEVICE[Research Devices]
+  CAMPUS --> GENAI[GenAI]
+  CAMPUS --> SECURITY[Security Team]
+  SECURITY --> SUPPLIER[Suppliers]
+```
