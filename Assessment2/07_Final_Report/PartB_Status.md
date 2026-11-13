@@ -1,17 +1,20 @@
 # Part B — Delivery Status
 
-**Current status:** Not started.
+**Current status:** In progress — first full narrative draft prepared.
 
-## Preparation already available
+## Completed
 
 - [x] Torridge University security topology
-- [x] Prioritised risks and treatment options
-- [x] Evidence traceability and ethics considerations
+- [x] Prioritised risks, treatment options and implementation accountabilities
+- [x] Evidence traceability and ACS ethics considerations
+- [x] Full first narrative draft linked to the risk register and evidence IDs
 
-## Required before delivery
+## Still required before delivery
 
-- [ ] Confirm the Part B task wording and marking criteria
-- [ ] Select the applicable risks and design scope
-- [ ] Produce the required artefact(s) and supporting rationale
-- [ ] Check feasibility; security; privacy; ethics; and accessibility
-- [ ] Complete final quality assurance against the brief
+- [ ] Confirm the official Part B task wording, marking criteria and word limit
+- [ ] Refine the selected design scope and rationale against the brief
+- [ ] Check feasibility, security, privacy, ethics and accessibility
+- [ ] Apply the required citation style consistently
+- [ ] Proofread and complete final quality assurance
+
+**Primary draft:** [PartB_First_Draft.md](PartB_First_Draft.md)
