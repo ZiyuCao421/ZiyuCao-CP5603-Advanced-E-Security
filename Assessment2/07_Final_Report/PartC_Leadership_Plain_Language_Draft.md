@@ -1,30 +1,33 @@
 # Part C — Security Brief for University Leaders
 
-## What we found
+> **Draft status:** Plain-language companion to the executive brief. Check the final assessment format and wording before submission.
 
-We did not find proof that someone has broken into University systems. We did find weaknesses that could make important services and information easier to disrupt, misuse or expose. Eight risks need action: four are urgent and four are high priority.
+## The position
 
-## Plain-language priorities
+We found weaknesses that could make University services or information easier to disrupt, misuse or expose. We did not find proof that an attacker has successfully entered a University system. The goal is to fix the most important weaknesses quickly, then build controls that keep working.
 
-- Some network rules allow access more widely than necessary. Each rule should have a named owner, a reason, an end date and a regular check.
-- The student portal needs prompt hardening because testing traffic was observed. Exposure must be removed and the fix tested.
-- Some network equipment still uses a default management setting. **Device management** means the way administrators control network equipment; default settings are widely known and should not remain in use.
-- Student-information backups need better protection. A **backup** is a copy used to recover a system. It should be encrypted, restored in a test, and sent using current secure connections. **TLS 1.0** is an older method for protecting information while it travels across a network.
-- The University needs a reliable backup plan for MFA. **MFA (multi-factor authentication)** is the extra sign-in check, such as a phone prompt, used alongside a password. Any emergency alternative must be short-lived and recorded.
-- External learning services need tighter access approval. **OAuth** is a method that lets one service use limited access to another service on a person’s behalf. It should only receive the access it needs.
-- Generative-AI use needs clear boundaries. Staff and students need to know which tools are approved and what information must never be entered into them.
+## What needs leadership support
 
-## Decisions requested
+- Protect the student portal and network devices first.
+- Limit network access so people and systems receive only the access they need.
+- Protect student-information backups and test that the University can restore them.
+- Keep MFA reliable. **MFA** is the extra sign-in check, such as a phone prompt, used with a password. Any emergency method must be short-lived and recorded.
+- Review external services before they are connected. **OAuth** lets one service use limited access to another service on a person's behalf.
+- Set clear rules for generative AI: which tools are approved and what data must not be entered into them.
 
-1. Approve a 14-day action window for the student portal and network-device settings.
-2. Require network-rule review, safer backups, MFA resilience and external-service access controls within 30 days.
-3. Approve a University-wide generative-AI use rule, approved tools and short awareness material within 45 days.
-4. Limit and isolate the older laboratory environment within 60 days while a replacement decision is made.
+## 12-month route
 
-## How leaders will know work is complete
+| When | What will change | What leaders will see |
+|---|---|---|
+| **0–3 months** | Reduce immediate portal, device, network and backup exposure | Tested fixes; named network-rule owners; secure backup and MFA fallback records |
+| **3–6 months** | Strengthen core protection and recovery | Updated secure connections; controlled administrator access; tested SIS restore and rollback; reviewed external services |
+| **6–9 months** | Control exceptions, older equipment and GenAI use | Isolated or replacement plan for legacy laboratory equipment; approved GenAI rules; staff and student guidance |
+| **9–12 months** | Check that controls work and improve the next plan | Independent checks; incident and recovery exercise results; remaining-risk report and next-year priorities |
 
-Every action needs a responsible owner, target date, proof of the change and a next review date. Proof can include a configuration record, a test result, a signed review or a successful recovery test. Work is not complete simply because a team says that it is.
+## How progress will be checked
 
-## The leadership role
+For the first three months, leadership receives a short monthly report. Afterwards, reporting is quarterly. Each report shows overdue high-risk actions, whether network rules still have owners and expiry dates, whether SIS recovery tests worked, MFA reliability, external-service reviews, and GenAI training progress.
 
-Approve the timetable and accountable owners; receive short progress reports; and decide explicitly if any urgent risk must remain. This protects learning, research and personal information while keeping security controls fair and practical.
+## What leadership is asked to approve
+
+Approve the 12-month plan, the responsible owners and the rule that Critical risks cannot stay open without an executive sponsor, expiry date and written acceptance. This supports secure teaching and research while avoiding unnecessary barriers for staff and students.
