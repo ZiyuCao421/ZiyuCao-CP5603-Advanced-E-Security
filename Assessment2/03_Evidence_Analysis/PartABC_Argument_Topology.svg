@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Part A to C argument topology</title>
+  <desc id="desc">Evidence flows into Part A findings, then Part B risks and treatments, then Part C leadership decisions and a twelve month roadmap.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#43556B"/></marker>
+    <style>text{font-family:Arial,sans-serif;fill:#172033}.title{font-size:28px;font-weight:700}.small{font-size:16px}.node-title{font-size:20px;font-weight:700}.node-copy{font-size:15px}.edge{stroke:#43556B;stroke-width:3;fill:none;marker-end:url(#arrow)}.label{font-size:14px;fill:#43556B}</style>
+  </defs>
+  <rect width="1200" height="720" fill="#FFFFFF"/>
+  <text x="600" y="46" text-anchor="middle" class="title">Torridge University — Part A to C Argument Topology</text>
+  <text x="600" y="74" text-anchor="middle" class="small">Public-safe traceability: evidence → risk treatment → leadership action</text>
+
+  <rect x="40" y="170" width="230" height="320" rx="16" fill="#E7F0FB" stroke="#43556B" stroke-width="2"/>
+  <text x="155" y="210" text-anchor="middle" class="node-title">Evidence basis</text>
+  <text x="155" y="248" text-anchor="middle" class="node-copy"><tspan x="155" dy="0">E01–E07</tspan><tspan x="155" dy="22">Network and public services</tspan><tspan x="155" dy="40">E08–E10</tspan><tspan x="155" dy="22">Identity and policy</tspan><tspan x="155" dy="40">E11–E12</tspan><tspan x="155" dy="22">SIS protection and change</tspan><tspan x="155" dy="40">E13–E16</tspan><tspan x="155" dy="22">Governance and GenAI</tspan></text>
+
+  <rect x="335" y="120" width="230" height="180" rx="16" fill="#FFF3D6" stroke="#43556B" stroke-width="2"/>
+  <text x="450" y="160" text-anchor="middle" class="node-title">Part A</text>
+  <text x="450" y="198" text-anchor="middle" class="node-copy"><tspan x="450" dy="0">Bounded observations</tspan><tspan x="450" dy="22">Classified findings</tspan><tspan x="450" dy="22">Significance and limits</tspan></text>
+
+  <rect x="335" y="410" width="230" height="180" rx="16" fill="#FFE7DF" stroke="#43556B" stroke-width="2"/>
+  <text x="450" y="450" text-anchor="middle" class="node-title">Part B</text>
+  <text x="450" y="488" text-anchor="middle" class="node-copy"><tspan x="450" dy="0">R01–R08 risk register</tspan><tspan x="450" dy="22">Controls, owners and dates</tspan><tspan x="450" dy="22">Ethics and residual risk</tspan></text>
+
+  <rect x="660" y="265" width="230" height="180" rx="16" fill="#E5F5EF" stroke="#43556B" stroke-width="2"/>
+  <text x="775" y="305" text-anchor="middle" class="node-title">Part C</text>
+  <text x="775" y="343" text-anchor="middle" class="node-copy"><tspan x="775" dy="0">Decisions requested</tspan><tspan x="775" dy="22">12-month roadmap</tspan><tspan x="775" dy="22">Measures and escalation</tspan></text>
+
+  <rect x="965" y="170" width="195" height="320" rx="16" fill="#F0EAFE" stroke="#43556B" stroke-width="2"/>
+  <text x="1062" y="210" text-anchor="middle" class="node-title">Outcomes</text>
+  <text x="1062" y="258" text-anchor="middle" class="node-copy"><tspan x="1062" dy="0">Protected student data</tspan><tspan x="1062" dy="22">and SIS recovery</tspan><tspan x="1062" dy="52">Safer public services</tspan><tspan x="1062" dy="22">and network access</tspan><tspan x="1062" dy="52">Secure, practical</tspan><tspan x="1062" dy="22">teaching and research</tspan></text>
+
+  <path d="M270 330 L335 210" class="edge"/>
+  <path d="M450 300 L450 410" class="edge"/>
+  <path d="M565 500 L660 355" class="edge"/>
+  <path d="M890 355 L965 330" class="edge"/>
+  <text x="286" y="254" class="label">facts and limits</text>
+  <text x="468" y="360" class="label">prioritise and treat</text>
+  <text x="570" y="425" class="label">decide and govern</text>
+  <text x="895" y="322" class="label">assure outcomes</text>
+
+  <line x1="40" y1="650" x2="1160" y2="650" stroke="#CBD5E1"/>
+  <text x="600" y="684" text-anchor="middle" class="small">A policy, alert or approval is not treated as proof of an operating control or confirmed compromise.</text>
+</svg>
