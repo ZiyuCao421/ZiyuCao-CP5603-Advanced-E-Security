@@ -2,7 +2,7 @@
 
 > Public-safe conceptual map. It uses evidence IDs and assessment conclusions only; it contains no original evidence, raw logs, credentials, personal data or sensitive configuration values.
 
-~~~mermaid
+```mermaid
 flowchart LR
   subgraph INPUT[Evidence basis]
     E1[E01–E07
@@ -75,7 +75,7 @@ and research]
   class B1,B2,B3 risk;
   class C1,C2,C3 action;
   class O1,O2,O3 outcome;
-~~~
+```
 
 ## How to read the map
 
