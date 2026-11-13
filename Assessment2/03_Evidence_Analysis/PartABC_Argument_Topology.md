@@ -2,6 +2,8 @@
 
 > Public-safe conceptual map. It uses evidence IDs and assessment conclusions only; it contains no original evidence, raw logs, credentials, personal data or sensitive configuration values.
 
+![Part A–C argument topology](PartABC_Argument_Topology.svg)
+
 ```mermaid
 flowchart LR
   subgraph INPUT[Evidence basis]
