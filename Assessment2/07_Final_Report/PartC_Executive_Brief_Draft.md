@@ -1,40 +1,41 @@
-# Part C — Executive Brief: Security Priorities and Decisions
+# Part C — Executive Brief: Security Priorities and 12-Month Roadmap
 
-## Purpose
+> **Draft status:** Working executive brief. Verify all claims, citations, word count and the final required format against the official task sheet before submission.
 
-This brief consolidates the Assessment 2 evidence, issue analysis, risk register, ethics log and research record into decisions for Torridge University leadership. The evidence indicates material control weaknesses. It does **not** confirm that a compromise has occurred.
+## Decision for leadership
+
+Torridge University has evidence of material security-control weaknesses but no confirmed compromise. The immediate decision is to fund and govern a phased improvement programme rather than treat each finding as an isolated technical defect. The programme must protect student records and public services, preserve research and teaching access, and require evidence that controls operate as intended.
 
 ## Current risk position
 
-Eight risks require managed treatment: four Critical (R01 network access, R03 student portal, R04 device management and R06 student information system) and four High (R02 legacy laboratory, R05 MFA resilience, R07 OAuth governance and R08 generative AI use). The priority is based on exposure, likely impact, affected services and the quality of available controls—not merely whether the issue is technical.
+The risk register identifies four **Critical** risks: excessive network access (R01), exposed student-portal weaknesses (R03), insecure network-device management (R04), and Student Information System (SIS) confidentiality and integrity failure (R06). Four further risks remain **High**: the legacy research laboratory (R02), MFA resilience (R05), third-party OAuth integration (R07), and GenAI data handling (R08).
 
-## Decisions requested
+The rating reflects the evidence, potential impact on students and University operations, and the uncertainty in existing control effectiveness. For example, alert and scan records require investigation; they do not prove a successful attack. Similarly, policy, approval and planned controls do not demonstrate that a control is operating.
 
-1. **Approve a 14-day remediation window** for the exposed student portal and default device-management settings. Remove unsafe service exposure; apply a hardened configuration; and retain test evidence.
-2. **Require network-rule recertification and restricted administrative access.** Assign every exception an owner, business reason, expiry date and review date; narrow broad rules and limit SSH access.
-3. **Fund student-information-system recovery protection.** Encrypt backups, retire TLS 1.0, establish key rotation, and test a documented restore.
-4. **Set an MFA resilience standard.** Agree a monitored failover design and a time-limited, logged fallback process so service continuity does not silently weaken authentication.
-5. **Centralise OAuth decisions.** Require least-privilege scopes, vendor review, accountable ownership and periodic re-authorisation for third-party integrations.
-6. **Approve controlled generative-AI use.** Publish an approved-tool and data-classification rule, implement enterprise access where appropriate, and train staff and students on permitted use.
-7. **Do not close actions on assurance alone.** Require acceptance evidence, a named owner, target date, residual-risk decision and review cadence for every treatment.
+## Decisions requested now
 
-## Delivery roadmap
+1. **Sponsor a 90-day stabilisation programme.** Give accountable owners authority to remediate portal and device-management exposure, restrict broad network access, and protect SIS recovery data.
+2. **Set a risk-acceptance rule.** No Critical exception continues without a named executive sponsor, expiry date, compensating controls and recorded residual-risk decision.
+3. **Create a third-party and GenAI governance gate.** Require Central IT review, least-privilege access, approved data handling and re-authorisation for LMS plugins, OAuth and GenAI services.
+4. **Require assurance evidence.** Treatment closure requires a configuration record, test result, signed review or restore exercise—not a verbal completion report.
 
-| Timing | Outcome | Risks addressed |
-|---|---|---|
-| 0–14 days | Portal and device-management exposure removed and tested | R03, R04 |
-| 15–30 days | Network rules recertified; MFA, SIS backup and OAuth controls strengthened | R01, R05, R06, R07 |
-| 31–45 days | Generative-AI rule, approved service path and awareness material operating | R08 |
-| 46–60 days | Legacy laboratory access constrained, isolated and given a replacement decision | R02 |
+## 12-month roadmap
 
-## Accountability and assurance
+| Timeframe | Leadership outcome | Priority actions | Evidence of completion |
+|---|---|---|---|
+| **0–3 months: stabilise** | Immediate exposure reduced | Remove unsafe public exposure; change default device-management settings; recertify firewall rules; encrypt SIS backups; document MFA fallback | Hardened configuration; rule-owner register; encrypted backup; tested fallback record |
+| **3–6 months: strengthen** | Core controls are reliable | Retire TLS 1.0; introduce key rotation; restrict privileged access through managed jump paths; complete OAuth/vendor review; test SIS restore and rollback | TLS and key-management records; access review; vendor assessment; restore and rollback test |
+| **6–9 months: govern** | Exceptions and suppliers are controlled | Isolate or replace legacy lab components; enforce exception expiry; publish approved GenAI use and data-classification rules; deliver targeted training | Network-isolation test; approved exception register; policy and provider register; training completion |
+| **9–12 months: assure and improve** | Improvement is measured and sustained | Independently sample closed treatments; rehearse incident and recovery processes; report residual risk and investment needs to leadership | Assurance report; exercise outcomes; risk trend and next-year plan |
 
-Technology owners should provide implementation evidence; service owners should accept operational impact; and the security function should validate closure against the risk register. Evidence should include configuration records, test results, review records or restore tests—not a statement that work is complete. Critical risks require frequent leadership review until the residual risk is explicitly accepted or reduced.
+## Measures for leadership review
 
-## Ethical and operational balance
+Monthly for the first quarter and quarterly thereafter, leadership should receive: Critical and High risks open past target; percentage of network rules with a current owner and expiry; portal/device remediation test results; successful SIS restore and rollback results; MFA service and fallback performance; reviewed third-party/OAuth integrations; and completion of GenAI guidance and training. These measures test whether the programme changes risk, not merely whether projects have started.
 
-Treatments must protect student and staff information without creating unreasonable barriers to learning, research or accessibility. Legacy and temporary exceptions should therefore be limited, recorded, time-bound and reviewed. Security reporting must distinguish observed evidence, reasonable inference and unconfirmed compromise so leadership decisions remain honest, proportionate and defensible.
+## Accountability and ethical balance
 
-## Leadership endorsement
+Technology owners implement controls; service owners accept operational impact; the security function validates evidence; and executive sponsors approve residual risk. Research and teaching requirements do not justify indefinite insecure exceptions: controls must be proportionate, accessible and time-bound. Security communication must distinguish confirmed facts, reasonable inferences and unknowns so decisions are honest, fair and defensible.
 
-Endorse the prioritised roadmap, accountable owners and evidence-based closure criteria; require progress reporting against the stated dates; and escalate any decision to accept residual Critical risk.
+## Endorsement sought
+
+Approve the roadmap, executive risk-acceptance rule, accountable owners and assurance reporting cycle. Require an exception escalation whenever a Critical treatment cannot meet its target date.
